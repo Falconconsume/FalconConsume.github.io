@@ -38,7 +38,7 @@ AOS.init({
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename="/">
                 <ScrollToTop />
                 <Routes>
                     <Route index path="/" element={<MainPage />} />
